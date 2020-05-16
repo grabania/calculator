@@ -28,13 +28,16 @@ function reverseNumberFormat(num) {
 }
 var operator = document.getElementsByClassName('operator');
 for (var i = 0; i < operator.length; i++) {
-	operator[i].addEventListener('click', function() {
-		alert('The operator clicked:' + this.id);
-	});
+	operator[i].addEventListener('click', function() {});
 }
 var number = document.getElementsByClassName('number');
 for (var i = 0; i < number.length; i++) {
 	number[i].addEventListener('click', function() {
-		alert('The number clicked:' + this.id);
+		var output = reverseNumberFormat(getOutput());
+		if (output != NaN) {
+			//if output is a number
+			output = output + this.id;
+			printOutput(output);
+		}
 	});
 }
