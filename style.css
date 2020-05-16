@@ -12,7 +12,7 @@ body {
 	margin: 0 auto;
 	top: 100px;
 	position: relative;
-	border-radius: 5px;
+	border-radius: .35rem;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -47,7 +47,7 @@ body {
 	height: 50px;
 	margin: 15px;
 	float: left;
-	border-radius: 100%;
+	border-radius: .35rem;
 	border-width: 2px;
 	border-color: #eee9e3;
 	/* font-weight: bold; */
@@ -102,5 +102,4 @@ button:nth-child(16) {
 button:nth-child(20) {
 	font-size: 20px;
 	background-color: #f1bb00;
-	border-color: #f89113;
 }
