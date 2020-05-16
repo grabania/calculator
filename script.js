@@ -32,3 +32,9 @@ for (var i = 0; i < operator.length; i++) {
 		alert('The operator clicked:' + this.id);
 	});
 }
+var number = document.getElementsByClassName('number');
+for (var i = 0; i < number.length; i++) {
+	number[i].addEventListener('click', function() {
+		alert('The number clicked:' + this.id);
+	});
+}
