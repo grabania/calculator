@@ -22,7 +22,6 @@ function getFormattedNumber(num) {
 	var value = n.toLocaleString('en');
 	return value;
 }
-
 function reverseNumberFormat(num) {
 	return Number(num.replace(/,/g, ''));
 }
@@ -47,8 +46,7 @@ for (var i = 0; i < operator.length; i++) {
 					history = history.substr(0, history.length - 1);
 				}
 			}
-			if (output !== '' || history != '') {
-				//condition?true:false
+			if (output != '' || history != '') {
 				output = output == '' ? output : reverseNumberFormat(output);
 				history = history + output;
 				if (this.id == '=') {
