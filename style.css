@@ -3,7 +3,17 @@ body {
 	background-color: #eee9e3;
 }
 .about {
-	top: 30px;
+	top: 50px;
+	position: relative;
+	text-align: center;
+}
+.about h2 {
+	font-size: 15px;
+	font-weight: bold;
+}
+.about h2 {
+	font-size: 15px;
+	font-weight: bold;
 }
 #calculator {
 	width: 320px;
